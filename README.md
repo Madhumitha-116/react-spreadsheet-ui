@@ -1,9 +1,9 @@
-[# 📊 React Spreadsheet UI
+# 📊 React Spreadsheet UI
 
-This is a front-end-only React spreadsheet interface built as part of an internship assignment for InScripts.
-The design closely matches a Figma prototype and includes dynamic styling, scrollable layout, and clean component structure.
+This is a **front-end-only React spreadsheet interface** built as part of an internship assignment for **InScripts**.  
+The design closely matches a Figma prototype and includes dynamic styling, scrollable layout, and a clean component structure.
 
-
+---
 
 ## 🚀 Features
 
@@ -21,7 +21,6 @@ The design closely matches a Figma prototype and includes dynamic styling, scrol
 ---
 
 ## 📁 Folder Structure
-
 src/
 ├── components/
 │ ├── Header.jsx
@@ -42,19 +41,18 @@ src/
 ├── main.jsx
 
 
+
+
 ---
 
 ## 🧪 Getting Started (Run Locally)
 
-```bash
-npm install
-npm run dev
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Madhumitha-116/react-spreadsheet-ui.git
 
 🌐 Live Demo
-🔗 [View Live Site](https://react-spreadsheet-ui.netlify.app/)
-
-
-
+👉 Click here to view the live site
 
 
 
@@ -68,4 +66,4 @@ GitHub + Netlify
 Madhu Mitha
 Frontend Developer Intern
 GitHub: @Madhumitha-116
-](https://react-spreadsheet-ui.netlify.app/)
+
