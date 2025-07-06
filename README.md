@@ -47,14 +47,11 @@ src/
 ## 🧪 Getting Started (Run Locally)
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 
 🌐 Live Demo
-🔗 https://react-spreadsheet-ui.netlify.app
+🔗[Live Site]( https://react-spreadsheet-ui.netlify.app)
 
 
 
