@@ -11,7 +11,7 @@ The design closely matches a Figma prototype and includes dynamic styling, scrol
 - 🧱 Component-based UI (Header, Table, Footer)
 - 🔢 First column displays row numbers
 - 🟢 **Status** & **Priority** badges are styled dynamically
-- 📄 Table includes **10 empty rows** (like real spreadsheet view)
+- 📄 Table includes **10 empty rows** (like a real spreadsheet view)
 - 🧭 Vertical scrolling enabled for overflowing rows
 - 🧑‍💼 Header with toolbar, action buttons, profile, and search
 - ➕ Footer with `ALT + +` action area (UI-only)
@@ -21,27 +21,8 @@ The design closely matches a Figma prototype and includes dynamic styling, scrol
 ---
 
 ## 📁 Folder Structure
-src/
-├── components/
-│ ├── Header.jsx
-│ ├── HeaderLeft.jsx
-│ ├── HeaderRight.jsx
-│ ├── Table.jsx
-│ ├── TableRow.jsx
-│ └── Footer.jsx
-├── Data/
-│ └── dummy-data.js
-├── styles/
-│ ├── Header.css
-│ ├── Table.css
-│ └── Footer.css
-├── App.jsx
-├── App.css
-├── index.css
-├── main.jsx
 
-
-
+src/ ├── components/ │   ├── Header.jsx │   ├── HeaderLeft.jsx │   ├── HeaderRight.jsx │   ├── Table.jsx │   ├── TableRow.jsx │   └── Footer.jsx ├── Data/ │   └── dummy-data.js ├── styles/ │   ├── Header.css │   ├── Table.css │   └── Footer.css ├── App.jsx ├── App.css ├── index.css ├── main.jsx
 
 ---
 
@@ -50,20 +31,36 @@ src/
 1. Clone the repo:
    ```bash
    git clone https://github.com/Madhumitha-116/react-spreadsheet-ui.git
+   cd react-spreadsheet-ui
+   npm install
+   npm run dev
+
+
+---
 
 🌐 Live Demo
+
 👉 Click here to view the live site
 
 
+---
 
 📦 Tech Stack
+
 ReactJS (Vite)
+
 Plain CSS
+
 React Icons
+
 GitHub + Netlify
 
+
+
+---
+
 🙋‍♀️ Author
+
 Madhu Mitha
 Frontend Developer Intern
 GitHub: @Madhumitha-116
-
