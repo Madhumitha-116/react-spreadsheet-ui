@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 16px;
+  background-color: #fafafa;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+}
+
+.footer button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.footer button:hover {
+  background-color: #f0f0f0;
+}
+
+.footer .iconPlus {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-left: auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer .iconPlus:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,78 @@
+.table-wrapper {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.spreadsheet-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-family: 'inter', sans-serif;
+  font-size: 14px;
+}
+
+.spreadsheet-table th,
+.spreadsheet-table td {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.spreadsheet-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.spreadsheet-table tbody tr:hover {
+  background-color: #f2f7ff;
+  cursor: pointer;
+}
+
+.spreadsheet-table tbody tr:has(td:empty) {
+  background-color: transparent;
+  border: none;
+}
+
+.status.in-process {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.status.complete {
+  color: green;
+  font-weight: 500;
+}
+
+.status.blocked {
+  color: red;
+  font-weight: 500;
+}
+
+.status.need-to-start {
+  color: orange;
+  font-weight: 500;
+}
+
+.priority.High {
+  color: red;
+  font-weight: 600;
+}
+
+.priority.Medium {
+  color: orange;
+  font-weight: 600;
+}
+
+.priority.Low {
+  color: blue;
+  font-weight: 600;
+}
