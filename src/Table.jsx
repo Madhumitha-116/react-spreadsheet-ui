@@ -25,12 +25,12 @@ export default function Table() {
         </thead>
 <tbody>
   {spreadsheetData.map((item, index) => (
-    <TableRow key={index} item={item} serial={index + 5} />
+    <TableRow key={index} item={item} serial={index + 1} />
   ))}
 
   {Array(10).fill().map((_, i) => (
     <tr key={`empty-${i}`}>
-      <td>{spreadsheetData.length + i + 5}</td> 
+      <td>{spreadsheetData.length + i + 1}</td> 
       <td></td>
       <td></td>
       <td></td>
