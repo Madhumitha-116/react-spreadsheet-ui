@@ -32,19 +32,27 @@ src/ ├── components/ │   ├── Header.jsx │   ├── HeaderLeft
    ```bash
    git clone https://github.com/Madhumitha-116/react-spreadsheet-ui.git
    cd react-spreadsheet-ui
-   npm install
-   npm run dev
-
-
----
+npm install
+npm run dev
 
 🌐 Live Demo
+🔗 [View Live Site](https://react-spreadsheet-ui.netlify.app/)
 
-👉 Click here to view the live site
 
 
----
 
+
+
+📦 Tech Stack
+ReactJS (Vite)
+Plain CSS
+React Icons
+GitHub + Netlify
+
+🙋‍♀ Author
+Madhu Mitha
+Frontend Developer Intern
+GitHub: @Madhumitha-116
 📦 Tech Stack
 
 ReactJS (Vite)
