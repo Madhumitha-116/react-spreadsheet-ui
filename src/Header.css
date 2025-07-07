@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px;
+  gap: 16px;
   padding: 16px;
   flex-wrap: wrap;
 }
@@ -92,4 +92,15 @@
 .header-left button:hover,
 .header-right button:hover {
   background-color: #f0f0f0;
+}
+button * {
+  color: inherit;
+}
+
+button {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-weight: 500;
+
 }

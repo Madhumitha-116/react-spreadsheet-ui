@@ -41,6 +41,13 @@
   background-color: transparent;
   border: none;
 }
+.spreadsheet-table th,
+.spreadsheet-table td {
+  border: 1px solid #E0E0E0;
+  padding: 10px;
+  height: 40px;
+}
+
 
 .status.in-process {
   color: #007bff;

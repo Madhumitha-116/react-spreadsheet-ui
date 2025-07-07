@@ -45,3 +45,6 @@
 .footer .iconPlus:hover {
   background-color: #0056b3;
 }
+.footer-container {
+  padding: 16px 24px;
+}

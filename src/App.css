@@ -7,3 +7,9 @@ body, .App {
   font-size: 20px;
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .table-wrapper { overflow-x: auto; }
+  .spreadsheet-table th, .spreadsheet-table td {
+    min-width: 120px;
+  }
+}
