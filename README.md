@@ -39,33 +39,14 @@ npm run dev
 🔗 [View Live Site](https://react-spreadsheet-ui.netlify.app/)
 
 
-
-
-
-
 📦 Tech Stack
 ReactJS (Vite)
 Plain CSS
 React Icons
 GitHub + Netlify
 
-🙋‍♀ Author
-Madhu Mitha
-Frontend Developer Intern
-GitHub: @Madhumitha-116
-📦 Tech Stack
-
-ReactJS (Vite)
-
-Plain CSS
-
-React Icons
-
-GitHub + Netlify
 
 
-
----
 
 🙋‍♀️ Author
 
